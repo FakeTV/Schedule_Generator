@@ -37,8 +37,6 @@ parser.add_argument("--start_hour",dest="start_hour",type=float,default=6,help="
 parser.add_argument("--cutoff_time",dest="cutoff_time",type=float,default=0.10,help="Cutoff time (when things stop getting scheduled)")
 parser.add_argument("--time_shift",dest="time_shift",type=float,default=0.25,help="amount of time (in hours) to shift the scheduled elements")
 parser.add_argument("--overlap_max",dest="overlap_max",type=float,default=0.50,help="variable used to store cutoff-time, the variable that will cancel a show if it runs too late")
-parser.add_argument("--url",dest="document_url",help="Google Doc URL to shows",
-                    default='https://docs.google.com/spreadsheets/d/1NaCMuS519LRBFA-lDR3F-_0raW8DRrX_kHCfpepsPtM/export?format=csv&id=1NaCMuS519LRBFA-lDR3F-_0raW8DRrX_kHCfpepsPtM&gid=1866327278')
 parser.add_argument("--debug",dest="debug",action="store_true",default=False,help="run debug script in function (Default FALSE) // ONLY KEPT FOR LEGACY SUPPORT")
 
 args = parser.parse_args()
