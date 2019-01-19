@@ -34,9 +34,13 @@ Another wonderful question!  It usually is just as simple as "./Schedule_Generat
 
 
 --path_schedule : This is the path to your .csv file.  Considering you should have put this in a subfolder, this should be the GLOBAL reference to that location (NOTE: this is the path to the folder, NOT the path to the actual .csv file)
+
 --start_hour : the time of day you'd like to start counting in your .xml file 
+
 --cutoff_time : When this amount of time (in hours) is leftover in a given element, it will be rolled over into the next category and the next element will be started.
+
 --time_shift : what you'd like to "round" all your elements too.  For example: time_shift of 0.25 that all times used in the logic of the program will be rounded to the quarter hour.  So that 0.65 hour drama will actually be counted as 0.75 hours.  This allows for "nice times" to be reported in the .xml file if you'd like it.
+
 There are some other ones, but they are mostly defunct now.
 
 ------------------------------------------------
