@@ -24,7 +24,7 @@ Before you ask, YES, this script is smart enough to know how long a given show i
 Setup Guide:
 Actually very simple:
 - Make sure that you have pseudochannel installed.
-- (There is a chance you will need to make sure the python package "random" is installed on your system)
+- (There is a chance you will need to make sure the python package "random" or "pandas" is installed on your system, use pip install to accomplish this.)
 - Place all files (except for the .csv files) into the channels folder.
 - Edit and place .csv file(s) into the folder(s) of the channels you want this to work with
 - Ensure the IP address and Token in the Schedule_Functions.py file have been updated to your values (you can find these in the LoginToPlex() routine, and can be edited with any text editor.
